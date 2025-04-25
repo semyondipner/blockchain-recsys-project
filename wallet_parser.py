@@ -1,6 +1,11 @@
+import os
 from moralis import evm_api #api take from https://admin.moralis.com/login
+from dotenv import load_dotenv
+load_dotenv()
 
-def get_tokens_from_wallet(wallet, chain_id, API) -> str:
+API_WALLET = os.getenv("API_WALLET")
+
+def get_tokens_from_wallet(wallet, chain_id, API = API_WALLET) -> str:
     params = {
     "chain": chain_id,
     "address": wallet,
@@ -19,8 +24,7 @@ def get_tokens_from_wallet(wallet, chain_id, API) -> str:
 
 
 ### example
-# api_key = "."
-# chain = 'eth'
-# wallet = '0xac207c599e4a07f9a8cc5e9cf49b02e20ab7ba69'
-# res = get_tokens_from_wallet(wallet, chain, api_key)
-# print(res)
+chain = 'eth'
+wallet = '0xac207c599e4a07f9a8cc5e9cf49b02e20ab7ba69'
+res = get_tokens_from_wallet(wallet, chain)
+print(res)
