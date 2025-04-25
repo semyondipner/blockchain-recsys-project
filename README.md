@@ -1,1 +1,10 @@
-# blockchain-recsys-project
+# Protorec
+
+Персонализированные рекомендации для владельцев криптокошельков.
+
+**Protorec** - сервис, помогающий крипто-инвесторам собрать наи
+
+
+```
+gunicorn main:app -c gunicorn.config.py
+```

@@ -1,8 +1,13 @@
+import os
 from gigachat import GigaChat
+from dotenv import load_dotenv
+load_dotenv()
+
+API_TOKEN = os.getenv("API_TOKEN")
 
 def get_adv(token: str) -> str:
     giga = GigaChat(
-    credentials=f".", #получить тут https://developers.sber.ru/studio/workspaces/
+    credentials=API_TOKEN, #получить тут https://developers.sber.ru/studio/workspaces/
     verify_ssl_certs=False,
     )
 
@@ -11,4 +16,4 @@ def get_adv(token: str) -> str:
 
 
 ### example
-# print(get_adv('bnb'))
+print(get_adv('bnb'))
