@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <mat-toolbar color="primary">
-      <span>DeFi Recommendations</span>
+      <span>DeFi Recommendations - It is not an individual investment recommendation.</span>
     </mat-toolbar>
     <main>
       <router-outlet></router-outlet>
