@@ -1,6 +1,15 @@
 # Protorec
 
-Персонализированные рекомендации для владельцев криптокошельков. Сервис анализирует ваш криптокошелек и предлагает инвестиционные возможности на основе ваших предпочтений и рыночных условий. Мы используем алгоритмы и методы машинного обучения для анализа исторических данных и предсказания будущих трендов крипттокошельков.
+Personalized recommendations for crypto wallet owners. The service analyzes your crypto wallet and suggests investment opportunities based on your preferences and market conditions. We use algorithms and machine learning methods to analyze historical data and predict future crypto wallet trends.
+
+# Demo
+
+![](materials/demo.gif)
+
+# Model Comparison
+
+![](materials/model_comparison.png)
+
 
 # Backend
 
@@ -16,9 +25,9 @@ ng serve
 ```
 
 
-# Зависимости
+# Dependencies
 
-Установка всъ завсимисотей будет проходить через менеджер пакето Poetry.
+Installation of all dependencies will be via Poetry
 
 ```
 poetry shell
