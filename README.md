@@ -2,11 +2,11 @@
 
 Personalized recommendations for crypto wallet owners. The service analyzes your crypto wallet and suggests investment opportunities based on your preferences and market conditions. We use algorithms and machine learning methods to analyze historical data and predict future crypto wallet trends.
 
-# Demo
+# Demo Platform
 
-![](materials/demo.gif)
+![](materials/demo1.gif)
 
-# Model Comparison
+# Comparison of models
 
 ![](materials/model_comparison.png)
 
